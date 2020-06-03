@@ -10,12 +10,15 @@ An app that uses WASM and JS for face detection and prime number calculation.
 
 
 ## Demo
-Live demo is running here:
-``https://dskgry.github.io/``
+A demo is running here:
+
+[https://dskgry.github.io/](https://dskgry.github.io/)
 
 
 ### License & Thanks
-Face detection inspired by this project `` https://github.com/Web-Sight/WebSight``
+Face detection inspired by this project:
+[https://github.com/Web-Sight/WebSight](https://github.com/Web-Sight/WebSight)
+
 
 License: MIT
 
