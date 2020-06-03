@@ -1,0 +1,28 @@
+{
+  "plugins": [
+    "@babel/plugin-proposal-class-properties",
+    [
+      "@babel/plugin-transform-react-jsx",
+      {
+        "pragma": "h"
+      }
+    ]
+  ],
+  "presets": [
+    [
+      "@babel/preset-env",
+      {
+        "targets": "last 2 Chrome versions, last 2 FF versions, not IE 9-11",
+        "useBuiltIns": "entry",
+        "modules": false,
+        "corejs": 3
+      }
+    ],
+    [
+      "@babel/typescript",
+      {
+        "jsxPragma": "h"
+      }
+    ]
+  ]
+}
